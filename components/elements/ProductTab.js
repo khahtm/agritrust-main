@@ -16,11 +16,11 @@ const ProductTab = () => {
                             Description
                         </a>
                     </li>
-                    <li className="nav-item">
+                    {/* <li className="nav-item">
                         <a className={activeIndex === 2 ? "nav-link active" : "nav-link"} id="Additional-info-tab" data-bs-toggle="tab" onClick={() => handleOnClick(2)}>
                             Additional info
                         </a>
-                    </li>
+                    </li> */}
                     <li className="nav-item">
                         <a className={activeIndex === 3 ? "nav-link active" : "nav-link"} id="Reviews-tab" data-bs-toggle="tab" onClick={() => handleOnClick(3)}>
                             Vendor
@@ -35,34 +35,34 @@ const ProductTab = () => {
                 <div className="tab-content shop_info_tab entry-main-content">
                     <div className={activeIndex === 1 ? "tab-pane fade show active" : "tab-pane fade"} id="Description">
                         <div className="">
-                            <p>Uninhibited carnally hired played in whimpered dear gorilla koala depending and much yikes off far quetzal goodness and from for grimaced goodness unaccountably and meadowlark near unblushingly crucial scallop tightly neurotic hungrily some and dear furiously this apart.</p>
-                            <p>Spluttered narrowly yikes left moth in yikes bowed this that grizzly much hello on spoon-fed that alas rethought much decently richly and wow against the frequent fluidly at formidable acceptably flapped besides and much circa far over the bucolically hey precarious goldfinch mastodon goodness gnashed a jellyfish and one however because.</p>
+                            <p>Sản phẩm khoai lang tím là một lựa chọn dinh dưỡng và hấp dẫn cho bữa ăn hàng ngày. Với vẻ ngoài màu tím đặc trưng, khoai lang tím là nguồn cung cấp chất chống oxy hóa, chất xơ, và vitamin giúp tăng cường sức khỏe.</p>
+                            <p>Khoai lang tím thường có hương vị ngọt tự nhiên và một cấu trúc nhẹ nhàng, dễ tiêu hóa. Chúng có thể được chế biến thành nhiều món ăn khác nhau như nướng, hấp, xào, hay làm bánh, làm mứt. Sản phẩm khoai lang tím không chỉ là một phần của bữa ăn ngon miệng mà còn đem lại lợi ích sức khỏe to lớn cho người tiêu dùng.</p>
                             <ul className="product-more-infor mt-30">
                                 <li>
-                                    <span>Type Of Packing</span> Bottle
+                                    <span>Type Of Packing</span>  Túi nhựa chất lượng cao, bảo vệ sản phẩm khỏi ánh sáng và hơi ẩm.
                                 </li>
                                 <li>
-                                    <span>Color</span> Green, Pink, Powder Blue, Purple
+                                    <span>Color</span> Màu tím tự nhiên, thể hiện sự tươi mới và dinh dưỡng của sản phẩm.
                                 </li>
                                 <li>
-                                    <span>Quantity Per Case</span> 100ml
+                                    <span>Quantity Per Case</span> 24 dĩa khoai lang tím, đủ để phục vụ cho nhiều bữa ăn gia đình.
                                 </li>
                                 <li>
-                                    <span>Ethyl Alcohol</span> 70%
+                                    <span>Ethyl Alcohol</span> Không chứa ethyl alcohol, đảm bảo sản phẩm an toàn và phù hợp cho mọi đối tượng sử dụng.
                                 </li>
                                 <li>
-                                    <span>Piece In One</span> Carton
+                                    <span>Piece In One</span> Mỗi dĩa chứa khoảng 300g khoai lang tím tươi ngon, đảm bảo đủ cho một khẩu phần ăn cơ bản.
                                 </li>
                             </ul>
                             <hr className="wp-block-separator is-style-dots" />
-                            <p>Laconic overheard dear woodchuck wow this outrageously taut beaver hey hello far meadowlark imitatively egregiously hugged that yikes minimally unanimous pouted flirtatiously as beaver beheld above forward energetic across this jeepers beneficently cockily less a the raucously that magic upheld far so the this where crud then below after jeez enchanting drunkenly more much wow callously irrespective limpet.</p>
+                            {/* <p>Laconic overheard dear woodchuck wow this outrageously taut beaver hey hello far meadowlark imitatively egregiously hugged that yikes minimally unanimous pouted flirtatiously as beaver beheld above forward energetic across this jeepers beneficently cockily less a the raucously that magic upheld far so the this where crud then below after jeez enchanting drunkenly more much wow callously irrespective limpet.</p> */}
                             <h4 className="mt-30">Packaging & Delivery</h4>
                             <hr className="wp-block-separator is-style-wide" />
-                            <p>Less lion goodness that euphemistically robin expeditiously bluebird smugly scratched far while thus cackled sheepishly rigid after due one assenting regarding censorious while occasional or this more crane went more as this less much amid overhung anathematic because much held one exuberantly sheep goodness so where rat wry well concomitantly.</p>
-                            <p>Scallop or far crud plain remarkably far by thus far iguana lewd precociously and and less rattlesnake contrary caustic wow this near alas and next and pled the yikes articulate about as less cackled dalmatian in much less well jeering for the thanks blindly sentimental whimpered less across objectively fanciful grimaced wildly some wow and rose jeepers outgrew lugubrious luridly irrationally attractively dachshund.</p>
+                            <p>Sản phẩm được đóng gói cẩn thận trong hộp carton chắc chắn, bảo vệ sản phẩm khỏi va đập và tổn thương trong quá trình vận chuyển.</p>
+                            <p>Giao hàng nhanh chóng và đảm bảo đến tay khách hàng với chất lượng tốt nhất.</p>
                         </div>
                     </div>
-                    <div className={activeIndex === 2 ? "tab-pane fade show active" : "tab-pane fade"} id="Additional-info">
+                    {/* <div className={activeIndex === 2 ? "tab-pane fade show active" : "tab-pane fade"} id="Additional-info">
                         <table className="font-md">
                             <tbody>
                                 <tr className="stand-up">
@@ -151,13 +151,13 @@ const ProductTab = () => {
                                 </tr>
                             </tbody>
                         </table>
-                    </div>
+                    </div> */}
                     <div className={activeIndex === 3 ? "tab-pane fade show active" : "tab-pane fade"} id="Reviews">
                         <div className="vendor-logo d-flex mb-30">
                             <img src="/assets/imgs/vendor/vendor-18.svg" alt="nest" />
                             <div className="vendor-name ml-15">
                                 <h6>
-                                    <a href="vendor-details-2.html">Noodles Co.</a>
+                                    <a href="vendor-details-2.html">NaFood</a>
                                 </h6>
                                 <div className="product-rate-cover text-end">
                                     <div className="product-rate d-inline-block">

@@ -6,7 +6,7 @@
         "id": "1",
         "price": 238.85,
         "oldPrice": 245.8,
-        "desc": "The sweet potato is a dicotyledonous plant that belongs to the bindweed or morning glory family, Convolvulaceae. Its large, starchy, sweet-tasting, tuberous roots are a root vegetable.",
+        "desc": "Khoai lang là một loài cây hai lá mầm thuộc họ măng tây hoặc măng tây sớm, Convolvulaceae. Các rễ củ lớn, chứa nhiều tinh bột, có vị ngọt đặc trưng của nó là một loại rau củ.",
         "images": [
             {
                 "img": "/assets/imgs/shop/product-1-1.jpg"
@@ -165,12 +165,12 @@
         "created": ""
     },
     {
-        "title": "Foster Farms Takeout Crispy Classic",
+        "title": "Cà Phê Gia Lai",
         "slug": "foster-farms-takeout-crispy-classic",
         "moreLove": true,
         "id": "4",
         "price": 55,
-        "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam rem officia, corrupti reiciendis minima nisi modi, quasi, odio minus dolore impedit fuga eum eligendi? Officia doloremque facere quia. Voluptatum, accusantium!",
+        "desc": "Cà phê Gia Lai là một loại cà phê đặc biệt được trồng và chế biến tại vùng cao nguyên của tỉnh Gia Lai, Việt Nam. Với đặc điểm khí hậu và đất đai độc đáo, cà phê Gia Lai thường mang lại hương vị đậm đà, thơm ngon và độ đắng cân đối",
         "images": [
             {
                 "img": "/assets/imgs/shop/product-4-1.jpg"
@@ -188,7 +188,7 @@
                 "thumb": "/assets/imgs/shop/product-4-2.jpg"
             },
             {
-                "thumb": "/assets/imgs/shop/product-4-1.jpg"
+                "thumb": "/assets/imgs/shop/product-4-3.jpg"
             }
         ],
         "condition": "used",
@@ -222,12 +222,12 @@
         "created": ""
     },
     {
-        "title": "Green Diamond Almonds Lightly From Oska",
+        "title": "Trà Phổ Nhĩ",
         "slug": "green-diamond-almonds-lightly-from-oska-japan",
         "moreLove": true,
         "id": "5",
         "price": 110,
-        "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam rem officia, corrupti reiciendis minima nisi modi, quasi, odio minus dolore impedit fuga eum eligendi? Officia doloremque facere quia. Voluptatum, accusantium!",
+        "desc": "Trà Phổ Nhĩ là một trong những loại trà đặc biệt và quý giá của Trung Quốc, nổi tiếng với hương vị đặc trưng và giá trị dinh dưỡng. Loại trà này được sản xuất tại vùng núi Phổ Nhĩ ở tỉnh Fujian, Trung Quốc, từ lá trà được chọn lựa cẩn thận và xử lý bằng phương pháp truyền thống.",
         "images": [
             {
                 "img": "/assets/imgs/shop/product-5-1.jpg"
@@ -245,7 +245,7 @@
                 "thumb": "/assets/imgs/shop/product-5-2.jpg"
             },
             {
-                "thumb": "/assets/imgs/shop/product-5-1.jpg"
+                "thumb": "/assets/imgs/shop/product-5-3.jpg"
             }
         ],
         "condition": "refurbished",
@@ -279,12 +279,12 @@
         "created": ""
     },
     {
-        "title": "Chobani Complete Vanilla Greek Yogurt",
+        "title": "Cà Rốt Lạng Sơn",
         "slug": "chobani-complete-vanilla-greek-yogurt",
         "moreLove": true,
         "id": "6",
         "price": 150,
-        "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam rem officia, corrupti reiciendis minima nisi modi, quasi, odio minus dolore impedit fuga eum eligendi? Officia doloremque facere quia. Voluptatum, accusantium!",
+        "desc": "Cà Rốt Lạng Sơn là loại cà rốt đặc biệt được trồng và sản xuất tại vùng đất phì nhiêu và nhiệt đới của tỉnh Lạng Sơn, Việt Nam. Với điều kiện khí hậu và đất đai đặc trưng, cà rốt Lạng Sơn thường có hình dáng đều, màu sắc tươi sáng và hương vị đặc trưng.",
         "images": [
             {
                 "img": "/assets/imgs/shop/product-6-1.jpg"
@@ -302,10 +302,10 @@
                 "thumb": "/assets/imgs/shop/product-6-1.jpg"
             },
             {
-                "thumb": "/assets/imgs/shop/product-6-2.jpg"
+                "thumb": "/assets/imgs/shop/product-6-3.jpg"
             }
         ],
-        "condition": "refurbished",
+        "condition": "Hành Tây Đà Lạt",
         "vendor": "NaFood",
         "color": "green",
         "brand": "helix",
@@ -336,12 +336,12 @@
         "created": ""
     },
     {
-        "title": "Canada Dry Ginger Ale – 2 L Bottle",
+        "title": "Hành Tây Đà Lạt",
         "slug": "canada-dry-ginger-ale-–-2-l-bottle",
         "moreLove": true,
         "id": "7",
         "price": 98,
-        "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam rem officia, corrupti reiciendis minima nisi modi, quasi, odio minus dolore impedit fuga eum eligendi? Officia doloremque facere quia. Voluptatum, accusantium!",
+        "desc": "Hành tây Đà Lạt là một loại hành tây đặc biệt được trồng và sản xuất tại vùng núi cao Đà Lạt, một trong những vùng sản xuất rau củ nổi tiếng của Việt Nam. Với điều kiện khí hậu và đất đai đặc trưng, hành tây Đà Lạt thường có màu trắng hoặc màu tím nhạt, hình dáng tròn và mềm mại.",
         "images": [
             {
                 "img": "/assets/imgs/shop/product-7-1.jpg"
@@ -359,7 +359,7 @@
                 "thumb": "/assets/imgs/shop/product-7-2.jpg"
             },
             {
-                "thumb": "/assets/imgs/shop/product-7-1.jpg"
+                "thumb": "/assets/imgs/shop/product-7-3.jpg"
             }
         ],
         "condition": "new",
@@ -393,12 +393,12 @@
         "created": ""
     },
     {
-        "title": "Encore Seafoods Stuffed Alaskan",
+        "title": "Gạo nương Tây Bắc",
         "slug": "encore-seafoods-stuffed-alaskan",
         "moreLove": true,
         "id": "8",
         "price": 24,
-        "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam rem officia, corrupti reiciendis minima nisi modi, quasi, odio minus dolore impedit fuga eum eligendi? Officia doloremque facere quia. Voluptatum, accusantium!",
+        "desc": "Gạo nương Tây Bắc là một loại gạo đặc biệt được trồng và sản xuất tại vùng núi cao của Tây Bắc Việt Nam, một trong những vùng đất nổi tiếng với sản xuất lúa gạo chất lượng cao. Với điều kiện tự nhiên đặc biệt của vùng đất núi, gạo nương Tây Bắc thường có hạt to, màu sắc đặc trưng và hương vị đậm đà.",
         "images": [
             {
                 "img": "/assets/imgs/shop/product-8-1.jpg"
@@ -450,12 +450,12 @@
         "created": ""
     },
     {
-        "title": "Gorton’s Beer Battered Fish Fillets",
+        "title": "Xoài cát Hòa Lộc",
         "slug": "gorton’s-beer-battered-fish-fillets",
         "moreLove": true,
         "id": "9",
         "price": 146,
-        "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam rem officia, corrupti reiciendis minima nisi modi, quasi, odio minus dolore impedit fuga eum eligendi? Officia doloremque facere quia. Voluptatum, accusantium!",
+        "desc": "xoài Cát Hòa Lộc cũng nổi tiếng với giá trị dinh dưỡng cao, giàu vitamin và chất chống oxy hóa, giúp tăng cường sức khỏe và hỗ trợ quá trình tiêu hóa. Sử dụng xoài Cát Hòa Lộc trong khẩu phần ăn hàng ngày không chỉ mang lại hương vị ngon miệng mà còn cung cấp nhiều lợi ích cho sức khỏe.",
         "images": [
             {
                 "img": "/assets/imgs/shop/product-9-1.jpg"
@@ -473,7 +473,7 @@
                 "thumb": "/assets/imgs/shop/product-9-2.jpg"
             },
             {
-                "thumb": "/assets/imgs/shop/product-9-1.jpg"
+                "thumb": "/assets/imgs/shop/product-9-3.jpg"
             }
         ],
         "condition": "new",
@@ -507,12 +507,12 @@
         "created": ""
     },
     {
-        "title": "Haagen-Dazs Caramel Cone Ice Cream",
+        "title": "Bơ sáp DakLak",
         "slug": "haagen-dazs-caramel-cone-ice-cream",
         "moreLove": true,
         "id": "10",
         "price": 67,
-        "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam rem officia, corrupti reiciendis minima nisi modi, quasi, odio minus dolore impedit fuga eum eligendi? Officia doloremque facere quia. Voluptatum, accusantium!",
+        "desc": "Bơ sáp Daklak được trồng và chăm sóc một cách cẩn thận, đảm bảo chất lượng và nguồn gốc an toàn. Quả bơ thường có vỏ mềm mại, hạt bơ dẻo và thịt bơ ngọt bùi, tạo nên trải nghiệm thưởng thức tuyệt vời cho người tiêu dùng.",
         "images": [
             {
                 "img": "/assets/imgs/shop/product-10-1.jpg"
@@ -530,7 +530,7 @@
                 "thumb": "/assets/imgs/shop/product-10-2.jpg"
             },
             {
-                "thumb": "/assets/imgs/shop/product-10-1.jpg"
+                "thumb": "/assets/imgs/shop/product-10-3.jpg"
             }
         ],
         "condition": "used",
@@ -541,7 +541,7 @@
         "featured": true,
         "trending": false,
         "discount": {
-            "banner": "/assets/imgs/banner/banner-8.png",
+            "banner": "/assets/imgs/banner/banner-7.png",
             "percentage": 4,
             "expireDate": null,
             "isActive": true
@@ -564,12 +564,12 @@
         "created": ""
     },
     {
-        "title": "Hamitoki - Seeds of Change Organic Quinoe",
+        "title": "Tỏi Lý Sơn",
         "slug": "seeds-of-change-organic-quinoe",
         "moreLove": true,
         "id": "11",
         "price": 116,
-        "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam rem officia, corrupti reiciendis minima nisi modi, quasi, odio minus dolore impedit fuga eum eligendi? Officia doloremque facere quia. Voluptatum, accusantium!",
+        "desc": "Tỏi Lý Sơn là một loại tỏi đặc biệt được trồng và sản xuất tại đảo Lý Sơn, một hòn đảo nhỏ thuộc tỉnh Quảng Ngãi, Việt Nam. Với điều kiện địa lý và khí hậu đặc trưng của hòn đảo, tỏi Lý Sơn thường có chất lượng cao, màu sắc đẹp và hương vị đậm đà.",
         "images": [
             {
                 "img": "/assets/imgs/shop/product-11-1.jpg"
@@ -587,7 +587,7 @@
                 "thumb": "/assets/imgs/shop/product-11-2.jpg"
             },
             {
-                "thumb": "/assets/imgs/shop/product-11-1.jpg"
+                "thumb": "/assets/imgs/shop/product-11-3.jpg"
             }
         ],
         "condition": "refurbished",

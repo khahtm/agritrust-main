@@ -13,62 +13,62 @@ function About() {
                                 </div>
                                 <div className="col-lg-6">
                                     <div className="pl-25">
-                                        <h2 className="mb-30">Welcome to Nest</h2>
-                                        <p className="mb-25">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate id est laborum.</p>
-                                        <p className="mb-50">Ius ferri velit sanctus cu, sed at soleat accusata. Dictas prompta et Ut placerat legendos interpre.Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante Etiam sit amet orci eget. Quis commodo odio aenean sed adipiscing. Turpis massa tincidunt dui ut ornare lectus. Auctor elit sed vulputate mi sit amet. Commodo consequat. Duis aute irure dolor in reprehenderit in voluptate id est laborum.</p>
+                                        <h2 className="mb-30">Chúng tôi là Agritrust</h2>
+                                        <p className="mb-25">Agritrust là một nền tảng công nghệ mới mẻ, tập trung vào việc tăng cường tính minh bạch và tin cậy trong ngành nông nghiệp, đặc biệt là trong việc quản lý quy trình sản xuất nông sản hữu cơ. Với sứ mệnh làm sáng tỏ nguồn gốc và chất lượng của sản phẩm nông nghiệp, Agritrust sử dụng công nghệ blockchain để tạo ra một hệ thống giao dịch an toàn và minh bạch.</p>
+                                        <p className="mb-50">Bằng cách này, Agritrust cung cấp cho người tiêu dùng thông tin chi tiết về quy trình sản xuất từ trang trại đến bàn ăn, giúp họ đảm bảo được nguồn gốc và an toàn của sản phẩm mà họ tiêu dùng. Đồng thời, Agritrust cũng tạo điều kiện công bằng cho các nông dân và nhà sản xuất nông sản, giúp họ tiếp cận thị trường một cách dễ dàng hơn và nhận được giá trị công bằng cho sản phẩm của mình.</p>
 
                                     </div>
                                 </div>
                             </section>
                             <section className="text-center mb-50">
-                                <h2 className="title style-3 mb-40">What We Provide?</h2>
+                                <h2 className="title style-3 mb-40">Chúng tôi có những gì?</h2>
                                 <div className="row">
                                     <div className="col-lg-4 col-md-6 mb-24">
                                         <div className="featured-card">
                                             <img src="/assets/imgs/theme/icons/icon-1.svg" alt="nest" />
-                                            <h4>Best Prices & Offers</h4>
-                                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form</p>
-                                            <a href="#">Read more</a>
+                                            <h4>Công nghệ Blockchain</h4>
+                                            <p>Tận dụng công nghệ Blockchain để tạo ra hệ thống giao dịch minh bạch và an toàn.</p>
+                                            <a href="#">Đọc thêm</a>
                                         </div>
                                     </div>
                                     <div className="col-lg-4 col-md-6 mb-24">
                                         <div className="featured-card">
                                             <img src="/assets/imgs/theme/icons/icon-2.svg" alt="nest" />
-                                            <h4>Wide Assortment</h4>
-                                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form</p>
-                                            <a href="#">Read more</a>
+                                            <h4>Tăng cường minh bạch</h4>
+                                            <p>Cung cấp thông tin chi tiết về nguồn gốc và quy trình sản xuất của sản phẩm nông nghiệp.</p>
+                                            <a href="#">Đọc thêm</a>
                                         </div>
                                     </div>
                                     <div className="col-lg-4 col-md-6 mb-24">
                                         <div className="featured-card">
                                             <img src="/assets/imgs/theme/icons/icon-3.svg" alt="nest" />
-                                            <h4>Free Delivery</h4>
-                                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form</p>
-                                            <a href="#">Read more</a>
+                                            <h4>Chất lượng và an toàn thực phẩm</h4>
+                                            <p>Kiểm soát chất lượng và an toàn thực phẩm để đảm bảo sự yên tâm cho người tiêu dùng.</p>
+                                            <a href="#">Đọc thêm</a>
                                         </div>
                                     </div>
                                     <div className="col-lg-4 col-md-6 mb-24">
                                         <div className="featured-card">
                                             <img src="/assets/imgs/theme/icons/icon-4.svg" alt="nest" />
-                                            <h4>Easy Returns</h4>
-                                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form</p>
-                                            <a href="#">Read more</a>
+                                            <h4>Công bằng</h4>
+                                            <p>Cung cấp nền tảng công bằng và minh bạch cho các nông dân và nhà sản xuất.</p>
+                                            <a href="#">Đọc thêm</a>
                                         </div>
                                     </div>
                                     <div className="col-lg-4 col-md-6 mb-24">
                                         <div className="featured-card">
                                             <img src="/assets/imgs/theme/icons/icon-5.svg" alt="nest" />
-                                            <h4>100% Satisfaction</h4>
-                                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form</p>
-                                            <a href="#">Read more</a>
+                                            <h4>Giới thiệu nông sản hữu cơ sạch</h4>
+                                            <p>Đóng vai trò quan trọng trong việc giới thiệu và phát triển nông sản hữu cơ sạch.</p>
+                                            <a href="#">Đọc thêm</a>
                                         </div>
                                     </div>
                                     <div className="col-lg-4 col-md-6 mb-24">
                                         <div className="featured-card">
                                             <img src="/assets/imgs/theme/icons/icon-6.svg" alt="nest" />
-                                            <h4>Great Daily Deal</h4>
-                                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form</p>
-                                            <a href="#">Read more</a>
+                                            <h4>Phát triển bền vững</h4>
+                                            <p>Góp phần vào sự phát triển bền vững của ngành nông nghiệp thông qua một môi trường thị trường minh bạch và an toàn.</p>
+                                            <a href="#">Đọc thêm</a>
                                         </div>
                                     </div>
                                 </div>
@@ -79,10 +79,10 @@ function About() {
                                         <img src="/assets/imgs/page/about-5.png" alt="nest" className="mb-md-3 mb-lg-0 mb-sm-4" />
                                     </div>
                                     <div className="col-lg-5">
-                                        <h4 className="mb-20 text-muted">Our performance</h4>
-                                        <h1 className="heading-1 mb-40">Your Partner for e-commerce grocery solution</h1>
-                                        <p className="mb-30">Ed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto</p>
-                                        <p>Pitatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia</p>
+                                        <h4 className="mb-20 text-muted">Hiểu thêm về Agritrust</h4>
+                                        <h1 className="heading-1 mb-40">Cùng nhau xây dựng nền nông nghiệp Việt Nam</h1>
+                                        <p className="mb-30">Agritrust đã thể hiện sự hiệu quả trong việc áp dụng công nghệ Blockchain vào quy trình giao dịch nông sản. </p>
+                                        <p>Bằng cách tạo ra một hệ thống minh bạch và an toàn, Agritrust đã tạo điều kiện thuận lợi cho các bên tham gia thị trường nông sản, đồng thời cung cấp thông tin chính xác và đáng tin cậy cho người tiêu dùng. Điều này đã giúp tăng cường tính tin cậy và thúc đẩy sự phát triển bền vững của ngành nông nghiệp hữu cơ.</p>
                                     </div>
                                 </div>
                                 <div className="row">

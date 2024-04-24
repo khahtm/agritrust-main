@@ -42,25 +42,25 @@ const Timer = (endDateTime) => {
                     <span className="countdown-amount hover-up">
                         {timeParts.days}
                     </span>
-                    <span className="countdown-period"> days </span>
+                    <span className="countdown-period"> Ngày </span>
                 </span>
                 <span className="countdown-section">
                     <span className="countdown-amount hover-up">
                         {timeParts.hours}
                     </span>
-                    <span className="countdown-period"> hours </span>
+                    <span className="countdown-period"> Giờ </span>
                 </span>
                 <span className="countdown-section">
                     <span className="countdown-amount hover-up">
                         {timeParts.minutes}
                     </span>
-                    <span className="countdown-period"> mins </span>
+                    <span className="countdown-period"> Phút </span>
                 </span>
                 <span className="countdown-section">
                     <span className="countdown-amount hover-up">
                         {timeParts.seconds}
                     </span>
-                    <span className="countdown-period"> sec </span>
+                    <span className="countdown-period"> Giây </span>
                 </span>
             </div>
         </>

@@ -176,8 +176,7 @@ const Footer = () => {
                                             />
                                         </Link>
                                         <p className="font-lg text-heading">
-                                            Awesome grocery store website
-                                            template
+                                            Sàn giao dịch nông sản từ Agritrust
                                         </p>
                                     </div>
                                     <ul className="contact-infor">
@@ -186,10 +185,9 @@ const Footer = () => {
                                                 src="/assets/imgs/theme/icons/icon-location.svg"
                                                 alt="nest"
                                             />
-                                            <strong>Address: </strong>{" "}
+                                            <strong>Địa chỉ: </strong>{" "}
                                             <span>
-                                                5171 W Campbell Ave undefined
-                                                Kent, Utah 53127 United States
+                                                Thành phố Thủ Đức, Hồ Chí Minh
                                             </span>
                                         </li>
                                         <li>
@@ -197,7 +195,7 @@ const Footer = () => {
                                                 src="/assets/imgs/theme/icons/icon-contact.svg"
                                                 alt="nest"
                                             />
-                                            <strong>Call Us:</strong>
+                                            <strong>Liên hệ:</strong>
                                             <span>(+91) - 540-025-124553</span>
                                         </li>
                                         <li>
@@ -206,14 +204,14 @@ const Footer = () => {
                                                 alt="nest"
                                             />
                                             <strong>Email:</strong>
-                                            <span>sale@Nest.com</span>
+                                            <span>info@agritrust.com</span>
                                         </li>
                                         <li>
                                             <img
                                                 src="/assets/imgs/theme/icons/icon-clock.svg"
                                                 alt="nest"
                                             />
-                                            <strong>Hours:</strong>
+                                            <strong>Thời gian làm việc:</strong>
                                             <span>
                                                 10:00 - 18:00, Mon - Sat
                                             </span>
@@ -225,28 +223,28 @@ const Footer = () => {
                                 className="footer-link-widget col  wow animate__animated animate__fadeInUp"
                                 data-wow-delay=".1s"
                             >
-                                <h4 className="widget-title">Company</h4>
+                                <h4 className="widget-title">Agritrust</h4>
                                 <ul className="footer-list  mb-sm-5 mb-md-0">
                                     <li>
-                                        <a href="#">About Us</a>
+                                        <a href="#">Về chúng tôi</a>
                                     </li>
                                     <li>
-                                        <a href="#">Delivery Information</a>
+                                        <a href="#">Thông tin giao hàbg</a>
                                     </li>
                                     <li>
-                                        <a href="#">Privacy Policy</a>
+                                        <a href="#">Chính sách</a>
                                     </li>
-                                    <li>
+                                    {/* <li>
                                         <a href="#">Terms &amp; Conditions</a>
+                                    </li> */}
+                                    <li>
+                                        <a href="#">Liên hệ với chúng tôi</a>
                                     </li>
                                     <li>
-                                        <a href="#">Contact Us</a>
+                                        <a href="#">Trung tâm hỗ trợ</a>
                                     </li>
                                     <li>
-                                        <a href="#">Support Center</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Careers</a>
+                                        <a href="#">Làm việc tại Agritrust</a>
                                     </li>
                                 </ul>
                             </div>
@@ -254,28 +252,28 @@ const Footer = () => {
                                 className="footer-link-widget col  wow animate__animated animate__fadeInUp"
                                 data-wow-delay=".2s"
                             >
-                                <h4 className="widget-title ">Account</h4>
+                                <h4 className="widget-title ">Tài khoản</h4>
                                 <ul className="footer-list  mb-sm-5 mb-md-0">
                                     <li>
-                                        <a href="#">Sign In</a>
+                                        <a href="#">Đăng nhập</a>
                                     </li>
                                     <li>
-                                        <a href="#">View Cart</a>
+                                        <a href="#">Giỏ hàng</a>
                                     </li>
                                     <li>
-                                        <a href="#">My Wishlist</a>
+                                        <a href="#">Danh sách mong muốn</a>
                                     </li>
                                     <li>
-                                        <a href="#">Track My Order</a>
+                                        <a href="#">Theo dõi đơn hàng</a>
                                     </li>
-                                    <li>
+                                    {/* <li>
                                         <a href="#">Help Ticket</a>
+                                    </li> */}
+                                    <li>
+                                        <a href="#">Chi tiết giao hàng</a>
                                     </li>
                                     <li>
-                                        <a href="#">Shipping Details</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Compare products</a>
+                                        <a href="#">So sánh sản phẩm</a>
                                     </li>
                                 </ul>
                             </div>
@@ -283,15 +281,15 @@ const Footer = () => {
                                 className="footer-link-widget col  wow animate__animated animate__fadeInUp"
                                 data-wow-delay=".3s"
                             >
-                                <h4 className="widget-title ">Corporate</h4>
+                                <h4 className="widget-title ">Hợp tác</h4>
                                 <ul className="footer-list  mb-sm-5 mb-md-0">
                                     <li>
-                                        <a href="#">Become a Vendor</a>
+                                        <a href="#">Trở thành nhà cung cấp</a>
                                     </li>
                                     <li>
-                                        <a href="#">Affiliate Program</a>
+                                        <a href="#">Tiếp thị liên kết</a>
                                     </li>
-                                    <li>
+                                    {/* <li>
                                         <a href="#">Farm Business</a>
                                     </li>
                                     <li>
@@ -305,15 +303,15 @@ const Footer = () => {
                                     </li>
                                     <li>
                                         <a href="#">Promotions</a>
-                                    </li>
+                                    </li> */}
                                 </ul>
                             </div>
                             <div
                                 className="footer-link-widget col  wow animate__animated animate__fadeInUp"
                                 data-wow-delay=".4s"
                             >
-                                <h4 className="widget-title ">Popular</h4>
-                                <ul className="footer-list  mb-sm-5 mb-md-0">
+                                {/* <h4 className="widget-title ">Popular</h4> */}
+                                {/* <ul className="footer-list  mb-sm-5 mb-md-0">
                                     <li>
                                         <a href="#">Milk & Flavoured Milk</a>
                                     </li>
@@ -335,7 +333,7 @@ const Footer = () => {
                                     <li>
                                         <a href="#">Cheese</a>
                                     </li>
-                                </ul>
+                                </ul> */}
                             </div>
                             <div
                                 className="footer-link-widget widget-install-app col  wow animate__animated animate__fadeInUp"
@@ -382,8 +380,7 @@ const Footer = () => {
                         <div className="col-xl-4 col-lg-6 col-md-6">
                             <p className="font-sm mb-0">
                                 &copy; 2024,{" "}
-                                <strong className="text-brand">Nest</strong> - HTML
-                                Ecommerce Template <br />
+                                <strong className="text-brand">Agritrust</strong><br />
                                 All rights reserved
                             </p>
                         </div>
