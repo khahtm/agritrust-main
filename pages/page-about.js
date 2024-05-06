@@ -85,7 +85,7 @@ function About() {
                                         <p>Bằng cách tạo ra một hệ thống minh bạch và an toàn, Agritrust đã tạo điều kiện thuận lợi cho các bên tham gia thị trường nông sản, đồng thời cung cấp thông tin chính xác và đáng tin cậy cho người tiêu dùng. Điều này đã giúp tăng cường tính tin cậy và thúc đẩy sự phát triển bền vững của ngành nông nghiệp hữu cơ.</p>
                                     </div>
                                 </div>
-                                <div className="row">
+                                {/* <div className="row">
                                     <div className="col-lg-4 pr-30 mb-md-5 mb-lg-0 mb-sm-5">
                                         <h3 className="mb-30">Who we are</h3>
                                         <p>Volutpat diam ut venenatis tellus in metus. Nec dui nunc mattis enim ut tellus eros donec ac odio orci ultrices in. ellus eros donec ac odio orci ultrices in.</p>
@@ -98,7 +98,7 @@ function About() {
                                         <h3 className="mb-30">Our mission</h3>
                                         <p>Volutpat diam ut venenatis tellus in metus. Nec dui nunc mattis enim ut tellus eros donec ac odio orci ultrices in. ellus eros donec ac odio orci ultrices in.</p>
                                     </div>
-                                </div>
+                                </div> */}
                             </section>
                         </div>
                     </div>
@@ -131,14 +131,14 @@ function About() {
                     <div className="row">
                         <div className="col-xl-10 col-lg-12 m-auto">
                             <section className="mb-50">
-                                <h2 className="title style-3 mb-40 text-center">Our Team</h2>
+                                <h2 className="title style-3 mb-40 text-center">Đội ngũ của chúng tôi</h2>
                                 <div className="row">
                                     <div className="col-lg-4 mb-lg-0 mb-md-5 mb-sm-5">
-                                        <h6 className="mb-5 text-brand">Our Team</h6>
-                                        <h1 className="mb-30">Meet Our Expert Team</h1>
-                                        <p className="mb-30">Proin ullamcorper pretium orci. Donec necscele risque leo. Nam massa dolor imperdiet neccon sequata congue idsem. Maecenas malesuada faucibus finibus.</p>
-                                        <p className="mb-30">Proin ullamcorper pretium orci. Donec necscele risque leo. Nam massa dolor imperdiet neccon sequata congue idsem. Maecenas malesuada faucibus finibus.</p>
-                                        <a href="#" className="btn">View All Members</a>
+                                        <h6 className="mb-5 text-brand">Đội ngũ Agritrust</h6>
+                                        <h1 className="mb-30">Những người góp phần xây dựng Agritrust</h1>
+                                        <p className="mb-30">Agritrust được xây dựng nhờ vào sự đóng góp của một nhóm các chuyên gia đa ngành, bao gồm các nhà phát triển phần mềm, chuyên gia về blockchain, nhà quản lý dự án và các chuyên gia trong lĩnh vực nông nghiệp và thực phẩm.</p>
+                                        <p className="mb-30"> Sự kết hợp này giúp Agritrust phát triển một nền tảng toàn diện và đáng tin cậy, đáp ứng được các yêu cầu kỹ thuật và quy mô của dự án.</p>
+                                        <a href="#" className="btn">Xem tất cả thành viên</a>
                                     </div>
                                     <div className="col-lg-8">
                                         <div className="row">

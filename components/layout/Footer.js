@@ -50,7 +50,7 @@ const Footer = () => {
                                 >
                                     <div className="banner-icon">
                                         <img
-                                            src="/assets/imgs/theme/icons/icon-1.svg"
+                                            src="/assets/imgs/theme/icons/icon-7.svg"
                                             alt="nest"
                                         />
                                     </div>
@@ -69,7 +69,7 @@ const Footer = () => {
                                 >
                                     <div className="banner-icon">
                                         <img
-                                            src="/assets/imgs/theme/icons/icon-2.svg"
+                                            src="/assets/imgs/theme/icons/icon-8.svg"
                                             alt="nest"
                                         />
                                     </div>
@@ -88,7 +88,7 @@ const Footer = () => {
                                 >
                                     <div className="banner-icon">
                                         <img
-                                            src="/assets/imgs/theme/icons/icon-3.svg"
+                                            src="/assets/imgs/theme/icons/icon-9.svg"
                                             alt="nest"
                                         />
                                     </div>
@@ -107,7 +107,7 @@ const Footer = () => {
                                 >
                                     <div className="banner-icon">
                                         <img
-                                            src="/assets/imgs/theme/icons/icon-4.svg"
+                                            src="/assets/imgs/theme/icons/icon-10.svg"
                                             alt="nest"
                                         />
                                     </div>

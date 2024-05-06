@@ -18,24 +18,24 @@ const BlogSidebar = () => {
                     <h5 className="section-title style-1 mb-30">Category</h5>
                     <ul>
                         <li>
-                            <Link href="/products"> <img src="/assets/imgs/theme/icons/category-1.svg" alt="nest" />Milks & Dairies</Link><span className="count">30</span>
+                            <Link href="/products"> <img src="/assets/imgs/theme/icons/category-1.svg" alt="nest" />Gạo</Link><span className="count">30</span>
                         </li>
                         <li>
-                            <Link href="/products"> <img src="/assets/imgs/theme/icons/category-2.svg" alt="nest" />Clothing</Link><span className="count">35</span>
+                            <Link href="/products"> <img src="/assets/imgs/theme/icons/category-2.svg" alt="nest" />Rau củ</Link><span className="count">35</span>
                         </li>
                         <li>
-                            <Link href="/products"> <img src="/assets/imgs/theme/icons/category-3.svg" alt="nest" />Pet Foods</Link><span className="count">42</span>
+                            <Link href="/products"> <img src="/assets/imgs/theme/icons/category-3.svg" alt="nest" />Cà phê</Link><span className="count">42</span>
                         </li>
                         <li>
-                            <Link href="/products"> <img src="/assets/imgs/theme/icons/category-4.svg" alt="nest" />Baking material</Link><span className="count">68</span>
+                            <Link href="/products"> <img src="/assets/imgs/theme/icons/category-4.svg" alt="nest" />Trà</Link><span className="count">68</span>
                         </li>
                         <li>
-                            <Link href="/products"> <img src="/assets/imgs/theme/icons/category-5.svg" alt="nest" />Fresh Fruit</Link><span className="count">87</span>
+                            <Link href="/products"> <img src="/assets/imgs/theme/icons/category-5.svg" alt="nest" />Đã qua chế biến</Link><span className="count">87</span>
                         </li>
                     </ul>
                 </div>
 
-                <div className="sidebar-widget product-sidebar mb-50 p-30 bg-grey border-radius-10">
+                {/* <div className="sidebar-widget product-sidebar mb-50 p-30 bg-grey border-radius-10">
                     <h5 className="section-title style-1 mb-30">Trending Now</h5>
                     <div className="single-post clearfix">
                         <div className="image">
@@ -85,7 +85,7 @@ const BlogSidebar = () => {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
                 <div className="sidebar-widget widget_instagram mb-50">
                     <h5 className="section-title style-1 mb-30">Gallery</h5>
                     <div className="instagram-gellay">

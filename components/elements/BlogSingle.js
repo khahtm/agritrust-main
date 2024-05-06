@@ -12,8 +12,7 @@ const BlogSingle = () => {
                                 <Link href="#">Recipes</Link>
                             </h6>
                             <h2 className="mb-10">
-                                Best smartwatch 2024: the top wearables you can
-                                buy today
+                                Tinh Thần Tự Hào Trong Nông Sản Việt: Sự Kiêu Hãnh Của Gạo Nương Tây Bắc
                             </h2>
                             <div className="single-header-meta">
                                 <div className="entry-meta meta-1 font-xs mt-15 mb-15">
@@ -65,36 +64,22 @@ const BlogSingle = () => {
                     <div className="row">
                         <div className="col-xl-10 col-lg-12 m-auto">
                             <p className="single-excerpt">
-                                Helping everyone live happier, healthier lives
-                                at home through their kitchen. Kitchn is a daily
-                                food magazine on the Web celebrating life in the
-                                kitchen through home cooking and kitchen
-                                intelligence.
+                                Trong thế giới nông sản đa dạng của Việt Nam, gạo nương Tây Bắc nổi lên như một biểu tượng của 
+                                sự tinh túy và sức mạnh văn hóa nông nghiệp của vùng đất này.
+
                             </p>
                             <p>
-                                We've reviewed and ranked all of the best
-                                smartwatches on the market right now, and we've
-                                made a definitive list of the top 10 devices you
-                                can buy today. One of the 10 picks below may
-                                just be your perfect next smartwatch.
-                            </p>
-                            <p>
-                                Those top-end wearables span from the Apple
-                                Watch to Fitbits, Garmin watches to
-                                Tizen-sporting Samsung watches. There's also
-                                Wear OS which is Google's own wearable operating
-                                system in the vein of Apple's watchOS - you’ll
-                                see it show up in a lot of these devices.
+                                Được tạo ra từ những cánh đồng lúa bạt ngàn trải dài trên những thửa ruộng bậc thang, 
+                                gạo nương Tây Bắc không chỉ là một sản phẩm, mà còn là biểu tượng của sự kiêu hãnh và 
+                                tinh thần tự hào của người dân nơi đây.
                             </p>
                             <h5 className="mt-50">
-                                Lorem ipsum dolor sit amet cons
+                                Sự Kỳ Vọng Trong Mỗi Hạt Gạo
                             </h5>
                             <p>
-                                Throughout our review process, we look at the
-                                design, features, battery life, spec, price and
-                                more for each smartwatch, rank it against the
-                                competition and enter it into the list you'll
-                                find below.
+                                Gạo nương Tây Bắc không chỉ là kết quả của một quá trình sản xuất, 
+                                mà còn là kết tinh của nền văn hóa và truyền thống lâu đời của người dân 
+                                vùng núi. Với mỗi hạt gạo được gieo trồng và chăm sóc bằng tình yêu thương, có một câu chuyện về sự kiên trì và lòng dũng cảm của những người nông dân, vượt qua những khó khăn của thiên nhiên để tạo ra sản phẩm tuyệt vời này.
                             </p>
                             <img
                                 className="mb-30"
@@ -102,52 +87,39 @@ const BlogSingle = () => {
                                 alt="nest"
                             />
                             <p>
-                                Tortor, lobortis semper viverra ac, molestie
-                                tortor laoreet amet euismod et diam quis aliquam
-                                consequat porttitor integer a nisl, in faucibus
-                                nunc et aenean turpis dui dignissim nec
-                                scelerisque ullamcorper eu neque, augue quam
-                                quis lacus pretium eros est amet turpis nunc in
-                                turpis massa et eget facilisis ante molestie
-                                penatibus dolor volutpat, porta pellentesque
-                                scelerisque at ornare dui tincidunt cras feugiat
-                                tempor lectus
+                                 Gạo nương Tây Bắc không chỉ nổi tiếng với vẻ đẹp của những hạt gạo trắng tinh khiết
+                                 mà còn là với hương vị đặc trưng và dinh dưỡng tuyệt vời. Với mỗi hạt gạo, ta có cơ 
+                                 hội trải nghiệm hương vị độc đáo của vùng đất Tây Bắc, cảm nhận được sự tự nhiên và tươi mới mỗi khi thưởng thức.
                             </p>
                             <blockquote>
                                 <p>
-                                    Integer eu faucibus <Link href="#">dolor</Link>
+                                    {/* <Link href="#">dolor</Link> */}
                                     <sup>
-                                        <Link href="#">[5]</Link>
+                                        {/* <Link href="#">[5]</Link> */}
                                     </sup>
-                                    . Ut venenatis tincidunt diam elementum
-                                    imperdiet. Etiam accumsan semper nisl eu
-                                    congue. Sed aliquam magna erat, ac eleifend
-                                    lacus rhoncus in.
+                                        Gạo nương Tây Bắc không chỉ là một sản phẩm, mà còn là biểu tượng 
+                                        của sự kiêu hãnh và lòng tự hào dân tộc. Mỗi hạt gạo là một câu chuyện về sự 
+                                        tận tâm và nỗ lực của những người nông dân, đồng thời là cam kết của Việt Nam trong 
+                                        việc bảo vệ và phát triển nền nông nghiệp bền vững.
                                 </p>
                             </blockquote>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit. Amet id enim, libero sit. Est
-                                donec lobortis cursus amet, cras elementum
-                                libero convallis feugiat. Nulla faucibus
-                                facilisi tincidunt a arcu, sem donec sed sed.
-                                Tincidunt morbi scelerisque lectus non. At leo
-                                mauris, vel augue. Facilisi diam consequat amet,
-                                commodo lorem nisl, odio malesuada cras. Tempus
-                                lectus sed libero viverra ut. Facilisi rhoncus
-                                elit sit sit.
+                                Trong bối cảnh thị trường quốc tế ngày càng cạnh tranh, việc giữ vững và phát triển thương
+                                 hiệu gạo nương Tây Bắc không chỉ là vấn đề của một cá nhân hay một doanh nghiệp, mà là trách 
+                                 nhiệm của toàn xã hội. Chỉ thông qua sự đoàn kết và hợp tác, chúng ta mới có thể giữ vững và phát 
+                                 triển tinh thần tự hào trong nông sản Việt Nam, đồng thời giữ được vị thế của gạo nương Tây Bắc trên thị trường quốc tế.
                             </p>
 
                             <div className="entry-bottom mt-50 mb-30">
                                 <div className="tags w-50 w-sm-100">
                                     <Link href="/blog-category-big" className="hover-up btn btn-sm btn-rounded mr-10">
-                                        deer
+                                        Gạo nương
                                     </Link>
                                     <Link href="/blog-category-big"  className="hover-up btn btn-sm btn-rounded mr-10">
-                                        nature
+                                        Tây Bắc
                                     </Link>
                                     <Link href="/blog-category-big" className="hover-up btn btn-sm btn-rounded mr-10">
-                                        conserve
+                                        Agritrust
                                     </Link>
                                 </div>
                                 <div className="social-icons single-share">

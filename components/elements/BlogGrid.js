@@ -4,7 +4,7 @@ const BlogGrid = ({ show, wide }) => {
     var data = [
         {
             id: 1,
-            title: "The litigants on the screen are not actors",
+            title: "Gạo nương Tây Bắc, tinh thần nông sản Việt",
             category: "Politic",
             views: 126,
             date: "25 April 2024",
@@ -13,7 +13,7 @@ const BlogGrid = ({ show, wide }) => {
         },
         {
             id: 2,
-            title: "Essential Qualities of Highly Successful Music",
+            title: "Nền nông nghiệp việt: Hành trình tìm kiếm sự bền vững trong sản xuất nông sản",
             img: "blog-2.png",
             category: "Global",
             views: 126,
@@ -22,7 +22,7 @@ const BlogGrid = ({ show, wide }) => {
         },
         {
             id: 2,
-            title: "Essential Qualities of Highly Successful Music",
+            title: "Sự phát triển của nông sản việt: Cơ hội và thách thức trong thị trường quốc tế",
             img: "blog-3.png",
             category: "Global",
             views: 126,
@@ -31,7 +31,7 @@ const BlogGrid = ({ show, wide }) => {
         },
         {
             id: 2,
-            title: "Essential Qualities of Highly Successful Music",
+            title: "Gạo việt nam: Hành trình từ cánh đồng đến bàn ăn thế giới",
             img: "blog-4.png",
             category: "Global",
             views: 126,
@@ -40,7 +40,7 @@ const BlogGrid = ({ show, wide }) => {
         },
         {
             id: 2,
-            title: "Essential Qualities of Highly Successful Music",
+            title: "Nông sản hữu cơ Việt Nam: Xu hướng mới trong sản xuất nông nghiệp",
             img: "blog-5.png",
             category: "Global",
             views: 126,
@@ -49,7 +49,7 @@ const BlogGrid = ({ show, wide }) => {
         },
         {
             id: 2,
-            title: "Essential Qualities of Highly Successful Music",
+            title: "Đòn bẩy của nông sản việt: Sự kết hợp giữa công nghệ và truyền thống",
             img: "blog-6.png",
             category: "Global",
             views: 126,
@@ -58,85 +58,85 @@ const BlogGrid = ({ show, wide }) => {
         },
         {
             id: 2,
-            title: "Essential Qualities of Highly Successful Music",
+            title: "Thủy sản Việt: tầm nhìn toàn cầu và tiềm năng phát triển",
             img: "blog-7.png",
             category: "Global",
             views: 126,
             date: "25 April 2024",
             desc: "These people envy me for having a lifestyle they don’t have, but the truth is, sometimes I envy their lifestyle instead. Struggling to sell one multi."
         },
-        {
-            id: 2,
-            title: "Essential Qualities of Highly Successful Music",
-            img: "blog-8.png",
-            category: "Global",
-            views: 126,
-            date: "25 April 2024",
-            desc: "These people envy me for having a lifestyle they don’t have, but the truth is, sometimes I envy their lifestyle instead. Struggling to sell one multi."
-        },
-        {
-            id: 2,
-            title: "Essential Qualities of Highly Successful Music",
-            img: "blog-9.png",
-            category: "Global",
-            views: 126,
-            date: "25 April 2024",
-            desc: "These people envy me for having a lifestyle they don’t have, but the truth is, sometimes I envy their lifestyle instead. Struggling to sell one multi."
-        },
-        {
-            id: 2,
-            title: "Essential Qualities of Highly Successful Music",
-            img: "blog-10.png",
-            category: "Global",
-            views: 126,
-            date: "25 April 2024",
-            desc: "These people envy me for having a lifestyle they don’t have, but the truth is, sometimes I envy their lifestyle instead. Struggling to sell one multi."
-        },
-        {
-            id: 2,
-            title: "Essential Qualities of Highly Successful Music",
-            img: "blog-11.png",
-            category: "Global",
-            views: 126,
-            date: "25 April 2024",
-            desc: "These people envy me for having a lifestyle they don’t have, but the truth is, sometimes I envy their lifestyle instead. Struggling to sell one multi."
-        },
-        {
-            id: 2,
-            title: "Essential Qualities of Highly Successful Music",
-            img: "blog-12.png",
-            category: "Global",
-            views: 126,
-            date: "25 April 2024",
-            desc: "These people envy me for having a lifestyle they don’t have, but the truth is, sometimes I envy their lifestyle instead. Struggling to sell one multi."
-        },
-        {
-            id: 2,
-            title: "Essential Qualities of Highly Successful Music",
-            img: "blog-13.png",
-            category: "Global",
-            views: 126,
-            date: "25 April 2024",
-            desc: "These people envy me for having a lifestyle they don’t have, but the truth is, sometimes I envy their lifestyle instead. Struggling to sell one multi."
-        },
-        {
-            id: 2,
-            title: "Essential Qualities of Highly Successful Music",
-            img: "blog-14.png",
-            category: "Global",
-            views: 126,
-            date: "25 April 2024",
-            desc: "These people envy me for having a lifestyle they don’t have, but the truth is, sometimes I envy their lifestyle instead. Struggling to sell one multi."
-        },
-        {
-            id: 2,
-            title: "Essential Qualities of Highly Successful Music",
-            img: "blog-15.png",
-            category: "Global",
-            views: 126,
-            date: "25 April 2024",
-            desc: "These people envy me for having a lifestyle they don’t have, but the truth is, sometimes I envy their lifestyle instead. Struggling to sell one multi."
-        }
+        // {
+        //     id: 2,
+        //     title: "Essential Qualities of Highly Successful Music",
+        //     img: "blog-8.png",
+        //     category: "Global",
+        //     views: 126,
+        //     date: "25 April 2024",
+        //     desc: "These people envy me for having a lifestyle they don’t have, but the truth is, sometimes I envy their lifestyle instead. Struggling to sell one multi."
+        // },
+        // {
+        //     id: 2,
+        //     title: "Essential Qualities of Highly Successful Music",
+        //     img: "blog-9.png",
+        //     category: "Global",
+        //     views: 126,
+        //     date: "25 April 2024",
+        //     desc: "These people envy me for having a lifestyle they don’t have, but the truth is, sometimes I envy their lifestyle instead. Struggling to sell one multi."
+        // },
+        // {
+        //     id: 2,
+        //     title: "Essential Qualities of Highly Successful Music",
+        //     img: "blog-10.png",
+        //     category: "Global",
+        //     views: 126,
+        //     date: "25 April 2024",
+        //     desc: "These people envy me for having a lifestyle they don’t have, but the truth is, sometimes I envy their lifestyle instead. Struggling to sell one multi."
+        // },
+        // {
+        //     id: 2,
+        //     title: "Essential Qualities of Highly Successful Music",
+        //     img: "blog-11.png",
+        //     category: "Global",
+        //     views: 126,
+        //     date: "25 April 2024",
+        //     desc: "These people envy me for having a lifestyle they don’t have, but the truth is, sometimes I envy their lifestyle instead. Struggling to sell one multi."
+        // },
+        // {
+        //     id: 2,
+        //     title: "Essential Qualities of Highly Successful Music",
+        //     img: "blog-12.png",
+        //     category: "Global",
+        //     views: 126,
+        //     date: "25 April 2024",
+        //     desc: "These people envy me for having a lifestyle they don’t have, but the truth is, sometimes I envy their lifestyle instead. Struggling to sell one multi."
+        // },
+        // {
+        //     id: 2,
+        //     title: "Essential Qualities of Highly Successful Music",
+        //     img: "blog-13.png",
+        //     category: "Global",
+        //     views: 126,
+        //     date: "25 April 2024",
+        //     desc: "These people envy me for having a lifestyle they don’t have, but the truth is, sometimes I envy their lifestyle instead. Struggling to sell one multi."
+        // },
+        // {
+        //     id: 2,
+        //     title: "Essential Qualities of Highly Successful Music",
+        //     img: "blog-14.png",
+        //     category: "Global",
+        //     views: 126,
+        //     date: "25 April 2024",
+        //     desc: "These people envy me for having a lifestyle they don’t have, but the truth is, sometimes I envy their lifestyle instead. Struggling to sell one multi."
+        // },
+        // {
+        //     id: 2,
+        //     title: "Essential Qualities of Highly Successful Music",
+        //     img: "blog-15.png",
+        //     category: "Global",
+        //     views: 126,
+        //     date: "25 April 2024",
+        //     desc: "These people envy me for having a lifestyle they don’t have, but the truth is, sometimes I envy their lifestyle instead. Struggling to sell one multi."
+        // }
     ];
 
     return (
