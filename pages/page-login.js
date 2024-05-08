@@ -18,19 +18,19 @@ function Login() {
                                     <div className="login_wrap widget-taber-content background-white">
                                         <div className="padding_eight_all bg-white">
                                             <div className="heading_s1">
-                                                <h1 className="mb-5">Login</h1>
-                                                <p className="mb-30">Don't have an account? <Link href="/page-register">Create here</Link></p>
+                                                <h1 className="mb-5">Đăng nhập</h1>
+                                                <p className="mb-30">Chưa có tài khoản? <Link href="/page-register">Create here</Link></p>
                                             </div>
                                             <form method="post">
                                                 <div className="form-group">
-                                                    <input type="text" required="" name="email" placeholder="Username or Email *" />
+                                                    <input type="text" required="" name="email" placeholder="Email hoặc tên đăng nhập*" />
                                                 </div>
                                                 <div className="form-group">
-                                                    <input required="" type="password" name="password" placeholder="Your password *" />
+                                                    <input required="" type="password" name="password" placeholder="Tài khoản của bạn *" />
                                                 </div>
                                                 <div className="login_footer form-group">
                                                     <div className="chek-form">
-                                                        <input type="text" required="" name="email" placeholder="Security code *" />
+                                                        <input type="text" required="" name="email" placeholder="Mã bảo mật *" />
                                                     </div>
                                                     <span className="security-code">
                                                         <b className="text-new">8</b>
@@ -43,13 +43,13 @@ function Login() {
                                                     <div className="chek-form">
                                                         <div className="custome-checkbox">
                                                             <input className="form-check-input" type="checkbox" name="checkbox" id="exampleCheckbox1" value="" />
-                                                            <label className="form-check-label" htmlFor="exampleCheckbox1"><span>Remember me</span></label>
+                                                            <label className="form-check-label" htmlFor="exampleCheckbox1"><span>Nhớ tài khoản</span></label>
                                                         </div>
                                                     </div>
-                                                    <a className="text-muted" href="#">Forgot password?</a>
+                                                    <a className="text-muted" href="#">Quên mật khẩu?</a>
                                                 </div>
                                                 <div className="form-group">
-                                                    <button type="submit" className="btn btn-heading btn-block hover-up" name="login">Log in</button>
+                                                    <button type="submit" className="btn btn-heading btn-block hover-up" name="login">Đăng nhập</button>
                                                 </div>
                                             </form>
                                         </div>

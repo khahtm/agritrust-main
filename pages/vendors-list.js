@@ -10,7 +10,7 @@ const Blank = () => {
                 <div className="page-content pt-50">
                     <div className="container">
                         <div className="archive-header-2 text-center">
-                            <h1 className="display-2 mb-50">Vendors List</h1>
+                            <h1 className="display-2 mb-50">Nhà cung cấp</h1>
                             <div className="row">
                                 <div className="col-lg-5 mx-auto">
                                     <div className="sidebar-widget-2 widget_search mb-50">

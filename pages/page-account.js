@@ -23,22 +23,22 @@ function Account() {
                                         <div className="dashboard-menu">
                                             <ul className="nav flex-column" role="tablist">
                                                 <li className="nav-item">
-                                                    <a className={activeIndex === 1 ? "nav-link active" : "nav-link"} onClick={() => handleOnClick(1)}><i className="fi-rs-settings-sliders mr-10"></i>Dashboard</a>
+                                                    <a className={activeIndex === 1 ? "nav-link active" : "nav-link"} onClick={() => handleOnClick(1)}><i className="fi-rs-settings-sliders mr-10"></i>Bảng điều khiển</a>
                                                 </li>
                                                 <li className="nav-item">
-                                                    <a className={activeIndex === 2 ? "nav-link active" : "nav-link"}  onClick={() => handleOnClick(2)}><i className="fi-rs-shopping-bag mr-10"></i>Orders</a>
+                                                    <a className={activeIndex === 2 ? "nav-link active" : "nav-link"}  onClick={() => handleOnClick(2)}><i className="fi-rs-shopping-bag mr-10"></i>Đơn hàng</a>
                                                 </li>
                                                 <li className="nav-item">
-                                                    <a className={activeIndex === 3 ? "nav-link active" : "nav-link"}  onClick={() => handleOnClick(3)}><i className="fi-rs-shopping-cart-check mr-10"></i>Track Your Order</a>
+                                                    <a className={activeIndex === 3 ? "nav-link active" : "nav-link"}  onClick={() => handleOnClick(3)}><i className="fi-rs-shopping-cart-check mr-10"></i>Theo dõi đơn hàng</a>
                                                 </li>
                                                 <li className="nav-item">
-                                                    <a className={activeIndex === 4 ? "nav-link active" : "nav-link"}  onClick={() => handleOnClick(4)}><i className="fi-rs-marker mr-10"></i>My Address</a>
+                                                    <a className={activeIndex === 4 ? "nav-link active" : "nav-link"}  onClick={() => handleOnClick(4)}><i className="fi-rs-marker mr-10"></i>Địa chỉ</a>
                                                 </li>
                                                 <li className="nav-item">
-                                                    <a className={activeIndex === 5 ? "nav-link active" : "nav-link"}  onClick={() => handleOnClick(5)}><i className="fi-rs-user mr-10"></i>Account details</a>
+                                                    <a className={activeIndex === 5 ? "nav-link active" : "nav-link"}  onClick={() => handleOnClick(5)}><i className="fi-rs-user mr-10"></i>Chi tiết tài khoản</a>
                                                 </li>
                                                 <li className="nav-item">
-                                                    <Link href="/page-login" className="nav-link"><i className="fi-rs-sign-out mr-10"></i>Logout</Link>
+                                                    <Link href="/page-login" className="nav-link"><i className="fi-rs-sign-out mr-10"></i>Đăng xuất</Link>
                                                 </li>
                                             </ul>
                                         </div>
@@ -48,12 +48,12 @@ function Account() {
                                             <div className={activeIndex === 1 ? "tab-pane fade active show" : "tab-pane fade "} >
                                                 <div className="card">
                                                     <div className="card-header">
-                                                        <h3 className="mb-0">Hello Rosie!</h3>
+                                                        <h3 className="mb-0">Chào Kha Hồ</h3>
                                                     </div>
                                                     <div className="card-body">
                                                         <p>
-                                                            From your account dashboard. you can easily check &amp; view your <a href="#">recent orders</a>,<br />
-                                                            manage your <a href="#">shipping and billing addresses</a> and <a href="#">edit your password and account details.</a>
+                                                            Cảm ơn bạn đã ủng hộ nông sản Việt. Tại đây bạn có thể &amp; theo dõi <a href="#">đơn hàng gần đây</a>,<br />
+                                                            kiểm tra <a href="#">thông tin giao hàng</a> và <a href="#">đổi mật khẩu cũng như chi tiết tài khoản.</a>
                                                         </p>
                                                     </div>
                                                 </div>
@@ -68,32 +68,32 @@ function Account() {
                                                             <table className="table">
                                                                 <thead>
                                                                     <tr>
-                                                                        <th>Order</th>
-                                                                        <th>Date</th>
-                                                                        <th>Status</th>
-                                                                        <th>Total</th>
-                                                                        <th>Actions</th>
+                                                                        <th>Đơn hàng</th>
+                                                                        <th>Ngày</th>
+                                                                        <th>Tình trạng</th>
+                                                                        <th>Tổng cộng</th>
+                                                                        <th>Hành động</th>
                                                                     </tr>
                                                                 </thead>
                                                                 <tbody>
                                                                     <tr>
                                                                         <td>#1357</td>
-                                                                        <td>March 45, 2020</td>
-                                                                        <td>Processing</td>
+                                                                        <td>Tháng 3 12, 2024</td>
+                                                                        <td>Đang giao</td>
                                                                         <td>$125.00 for 2 item</td>
                                                                         <td><a href="#" className="btn-small d-block">View</a></td>
                                                                     </tr>
                                                                     <tr>
                                                                         <td>#2468</td>
-                                                                        <td>June 29, 2020</td>
-                                                                        <td>Completed</td>
+                                                                        <td>Tháng 6 29, 2024</td>
+                                                                        <td>Hoàn thành</td>
                                                                         <td>$364.00 for 5 item</td>
                                                                         <td><a href="#" className="btn-small d-block">View</a></td>
                                                                     </tr>
                                                                     <tr>
                                                                         <td>#2366</td>
-                                                                        <td>August 02, 2020</td>
-                                                                        <td>Completed</td>
+                                                                        <td>Tháng 8 02, 2020</td>
+                                                                        <td>Hoàn thành</td>
                                                                         <td>$280.00 for 3 item</td>
                                                                         <td><a href="#" className="btn-small d-block">View</a></td>
                                                                     </tr>
@@ -106,10 +106,10 @@ function Account() {
                                             <div className={activeIndex === 3 ? "tab-pane fade active show" : "tab-pane fade "} >
                                                 <div className="card">
                                                     <div className="card-header">
-                                                        <h3 className="mb-0">Orders tracking</h3>
+                                                        <h3 className="mb-0">Theo dõi đơn hàng</h3>
                                                     </div>
                                                     <div className="card-body contact-from-area">
-                                                        <p>To track your order please enter your OrderID in the box below and press "Track" button. This was given to you on your receipt and in the confirmation email you should have received.</p>
+                                                        <p>Hãy nhập Số OrderID để tìm kiếm đơn hàng của bạn.</p>
                                                         <div className="row">
                                                             <div className="col-lg-8">
                                                                 <form className="contact-form-style mt-30 mb-50" action="#" method="post">
@@ -118,10 +118,10 @@ function Account() {
                                                                         <input name="order-id" placeholder="Found in your order confirmation email" type="text" />
                                                                     </div>
                                                                     <div className="input-style mb-20">
-                                                                        <label>Billing email</label>
+                                                                        <label>Email</label>
                                                                         <input name="billing-email" placeholder="Email you used during checkout" type="email" />
                                                                     </div>
-                                                                    <button className="submit submit-auto-width" type="submit">Track</button>
+                                                                    <button className="submit submit-auto-width" type="submit">Theo dõi</button>
                                                                 </form>
                                                             </div>
                                                         </div>
@@ -133,31 +133,31 @@ function Account() {
                                                     <div className="col-lg-6">
                                                         <div className="card mb-3 mb-lg-0">
                                                             <div className="card-header">
-                                                                <h3 className="mb-0">Billing Address</h3>
+                                                                <h3 className="mb-0">Địa chỉ</h3>
                                                             </div>
                                                             <div className="card-body">
                                                                 <address>
-                                                                    3522 Interstate<br />
-                                                                    75 Business Spur,<br />
-                                                                    Sault Ste. <br />Marie, MI 49783
+                                                                    3522 Tòa nhà Nam Giao<br />
+                                                                    75 Phố Hàng Bông,<br />
+                                                                    Phường Lán Hạ. <br />
                                                                 </address>
-                                                                <p>New York</p>
-                                                                <a href="#" className="btn-small">Edit</a>
+                                                                <p>Hà Nội</p>
+                                                                <a href="#" className="btn-small">Thay đổi</a>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div className="col-lg-6">
                                                         <div className="card">
                                                             <div className="card-header">
-                                                                <h5 className="mb-0">Shipping Address</h5>
+                                                                <h5 className="mb-0">Địa chỉ</h5>
                                                             </div>
                                                             <div className="card-body">
                                                                 <address>
-                                                                    4299 Express Lane<br />
-                                                                    Sarasota, <br />FL 34249 USA <br />Phone: 1.941.227.4444
+                                                                    4299 Tòa nhà Siêu Phẩm<br />
+                                                                    Nguyễn Đình Chiểu, <br />Bến Nghé <br />Phone: 1.941.227.4444
                                                                 </address>
-                                                                <p>Sarasota</p>
-                                                                <a href="#" className="btn-small">Edit</a>
+                                                                <p>Cầu Ông Lãnh</p>
+                                                                <a href="#" className="btn-small">Thay đổi</a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -166,38 +166,38 @@ function Account() {
                                             <div className={activeIndex === 5 ? "tab-pane fade active show" : "tab-pane fade "} >
                                                 <div className="card">
                                                     <div className="card-header">
-                                                        <h5>Account Details</h5>
+                                                        <h5>Chi tiết tài khoản</h5>
                                                     </div>
                                                     <div className="card-body">
-                                                        <p>Already have an account? <Link href="/page-login">Log in instead!</Link></p>
+                                                        <p>Đã có tài khoản? <Link href="/page-login">Đăng nhập ngay</Link></p>
                                                         <form method="post" name="enq">
                                                             <div className="row">
                                                                 <div className="form-group col-md-6">
-                                                                    <label>First Name <span className="required">*</span></label>
+                                                                    <label>Họ <span className="required">*</span></label>
                                                                     <input required="" className="form-control" name="name" type="text" />
                                                                 </div>
                                                                 <div className="form-group col-md-6">
-                                                                    <label>Last Name <span className="required">*</span></label>
+                                                                    <label>Tên <span className="required">*</span></label>
                                                                     <input required="" className="form-control" name="phone" />
                                                                 </div>
                                                                 <div className="form-group col-md-12">
-                                                                    <label>Display Name <span className="required">*</span></label>
+                                                                    <label>Tên hiển thị <span className="required">*</span></label>
                                                                     <input required="" className="form-control" name="dname" type="text" />
                                                                 </div>
                                                                 <div className="form-group col-md-12">
-                                                                    <label>Email Address <span className="required">*</span></label>
+                                                                    <label>Email <span className="required">*</span></label>
                                                                     <input required="" className="form-control" name="email" type="email" />
                                                                 </div>
                                                                 <div className="form-group col-md-12">
-                                                                    <label>Current Password <span className="required">*</span></label>
+                                                                    <label>Passowrd hiện tại <span className="required">*</span></label>
                                                                     <input required="" className="form-control" name="password" type="password" />
                                                                 </div>
                                                                 <div className="form-group col-md-12">
-                                                                    <label>New Password <span className="required">*</span></label>
+                                                                    <label>Password mới <span className="required">*</span></label>
                                                                     <input required="" className="form-control" name="npassword" type="password" />
                                                                 </div>
                                                                 <div className="form-group col-md-12">
-                                                                    <label>Confirm Password <span className="required">*</span></label>
+                                                                    <label>Xác nhận Password <span className="required">*</span></label>
                                                                     <input required="" className="form-control" name="cpassword" type="password" />
                                                                 </div>
                                                                 <div className="col-md-12">

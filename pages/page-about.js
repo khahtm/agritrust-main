@@ -106,24 +106,24 @@ function About() {
                 <section className="container mb-50 d-none d-md-block">
                     <div className="row about-count">
                         <div className="col-lg-1-5 col-md-6 text-center mb-lg-0 mb-md-5">
-                            <h1 className="heading-1"><span className="count">12</span>+</h1>
-                            <h4>Glorious years</h4>
+                            <h1 className="heading-1"><span className="count">3</span>+</h1>
+                            <h4>Năm phát triển</h4>
                         </div>
                         <div className="col-lg-1-5 col-md-6 text-center">
                             <h1 className="heading-1"><span className="count">36</span>+</h1>
-                            <h4>Happy clients</h4>
+                            <h4>Hộ nông dân</h4>
                         </div>
                         <div className="col-lg-1-5 col-md-6 text-center">
-                            <h1 className="heading-1"><span className="count">58</span>+</h1>
-                            <h4>Projects complete</h4>
+                            <h1 className="heading-1"><span className="count">3</span>+</h1>
+                            <h4>Dự án triển khai</h4>
                         </div>
                         <div className="col-lg-1-5 col-md-6 text-center">
-                            <h1 className="heading-1"><span className="count">24</span>+</h1>
-                            <h4>Team advisor</h4>
+                            <h1 className="heading-1"><span className="count">12</span>+</h1>
+                            <h4>Nhân viên</h4>
                         </div>
                         <div className="col-lg-1-5 text-center d-none d-lg-block">
-                            <h1 className="heading-1"><span className="count">26</span>+</h1>
-                            <h4>Products Sale</h4>
+                            <h1 className="heading-1"><span className="count">30</span>+</h1>
+                            <h4>Sản phẩm</h4>
                         </div>
                     </div>
                 </section>

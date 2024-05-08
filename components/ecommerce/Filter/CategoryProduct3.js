@@ -35,7 +35,7 @@ const CategoryProduct3 = ({ updateProductCategory }) => {
                             src="/assets/imgs/theme/icons/category-1.svg"
                             alt="nest"
                         />
-                        Milks & Dairies
+                        Cà phê
                     </a>
 
                 </li>
@@ -45,7 +45,7 @@ const CategoryProduct3 = ({ updateProductCategory }) => {
                             src="/assets/imgs/theme/icons/category-2.svg"
                             alt="nest"
                         />
-                        Clothing
+                        Rau củ
                     </a>
 
                 </li>
@@ -55,7 +55,7 @@ const CategoryProduct3 = ({ updateProductCategory }) => {
                             src="/assets/imgs/theme/icons/category-3.svg"
                             alt="nest"
                         />
-                        Pet Foods{" "}
+                        Gạo{" "}
                     </a>
 
                 </li>
@@ -65,7 +65,7 @@ const CategoryProduct3 = ({ updateProductCategory }) => {
                             src="/assets/imgs/theme/icons/category-4.svg"
                             alt="nest"
                         />
-                        Baking material
+                        Sau chế biến
                     </a>
 
                 </li>
@@ -75,7 +75,7 @@ const CategoryProduct3 = ({ updateProductCategory }) => {
                             src="/assets/imgs/theme/icons/category-5.svg"
                             alt="nest"
                         />
-                        Fresh Fruit
+                        Thực phẩm tươi
                     </a>
                 </li>
             </ul>

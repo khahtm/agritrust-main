@@ -113,25 +113,25 @@ const BlogSidebar = () => {
                 </div>
 
                 <div className="sidebar-widget widget-tags mb-50 pb-10">
-                    <h5 className="section-title style-1 mb-30">Popular Tags</h5>
+                    <h5 className="section-title style-1 mb-30">Tags Phổ Biến</h5>
                     <ul className="tags-list">
                         <li className="hover-up">
-                            <Link href="/blog-category-grid"><i className="fi-rs-cross mr-10"></i>Cabbage</Link>
+                            <Link href="/blog-category-grid"><i className="fi-rs-cross mr-10"></i>Rau củ</Link>
                         </li>
                         <li className="hover-up">
-                            <Link href="/blog-category-grid"><i className="fi-rs-cross mr-10"></i>Broccoli</Link>
+                            <Link href="/blog-category-grid"><i className="fi-rs-cross mr-10"></i>Cà phê</Link>
                         </li>
                         <li className="hover-up">
-                            <Link href="/blog-category-grid"><i className="fi-rs-cross mr-10"></i>Smoothie</Link>
+                            <Link href="/blog-category-grid"><i className="fi-rs-cross mr-10"></i>Gạo</Link>
                         </li>
                         <li className="hover-up">
-                            <Link href="/blog-category-grid"><i className="fi-rs-cross mr-10"></i>Fruit</Link>
+                            <Link href="/blog-category-grid"><i className="fi-rs-cross mr-10"></i>Trái cây tươi</Link>
                         </li>
                         <li className="hover-up mr-0">
                             <Link href="/blog-category-grid"><i className="fi-rs-cross mr-10"></i>Salad</Link>
                         </li>
                         <li className="hover-up mr-0">
-                            <Link href="/blog-category-grid"><i className="fi-rs-cross mr-10"></i>Appetizer</Link>
+                            <Link href="/blog-category-grid"><i className="fi-rs-cross mr-10"></i>Đã qua chế biến</Link>
                         </li>
                     </ul>
                 </div>
@@ -140,9 +140,9 @@ const BlogSidebar = () => {
                     <div className="banner-text">
                         <span>Oganic</span>
                         <h4>
-                            Save 17% <br />
-                            on <span className="text-brand">Oganic</span><br />
-                            Juice
+                            Tiết kiệm 17% <br />
+                            100% <span className="text-brand">Oganic</span><br />
+                            Nước ép Cam
                         </h4>
                     </div>
                 </div>
