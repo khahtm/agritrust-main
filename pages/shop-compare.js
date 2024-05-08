@@ -13,10 +13,10 @@ const Compare = ({ compare, clearCompare, deleteFromCompare }) => {
                         <div className="row">
                             <div className="col-xl-10 col-lg-12 m-auto">
                                 <h1 className="heading-2 mb-10">
-                                    Products Compare
+                                    Sản phẩm so sánh
                                 </h1>
                                 <h6 className="text-body mb-40">
-                                    This is your products list to compare
+                                    Đây là các sản phẩm so sánh của bạn
                                 </h6>
                                 <div className="table-responsive">
                                     {compare.items.length > 0 ? (
@@ -46,12 +46,12 @@ const Compare = ({ compare, clearCompare, deleteFromCompare }) => {
                                                     className="clear-btn"
                                                     onClick={clearCompare}
                                                 >
-                                                    Clear All
+                                                    Xóa tất cả
                                                 </span>
                                             </div>
                                         </>
                                     ) : (
-                                        <h4>No Products</h4>
+                                        <h4>Không sản phẩm hiển thị</h4>
                                     )}
                                 </div>
                             </div>

@@ -8,14 +8,14 @@ const VendorFilter = ({ updateProductFilters }) => {
     const [sizes, setSizeCheckbox] = useState(
         [
             { value: "NaFood" },
-            { value: "stouffer" },
-            { value: "starKist" },
-            { value: "aldi" },
-            { value: "adidas" },
-            { value: "Costco" },
-            { value: "Harris" },
-            { value: "iSnack" },
-            { value: "Burbe" }
+            // { value: "stouffer" },
+            // { value: "starKist" },
+            // { value: "aldi" },
+            // { value: "adidas" },
+            // { value: "Costco" },
+            // { value: "Harris" },
+            // { value: "iSnack" },
+            // { value: "Burbe" }
         ]
     );
 

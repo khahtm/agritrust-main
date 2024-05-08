@@ -20,7 +20,7 @@ const CategoryProduct = ({ updateProductCategory }) => {
         <>
             <ul>
                 <li onClick={(e) => selectCategory(e, "")}>
-                    <a>All</a>
+                    <a>Tất cả</a>
                 </li>
                 <li onClick={(e) => selectCategory(e, "jeans")}>
                     <a>
@@ -28,7 +28,7 @@ const CategoryProduct = ({ updateProductCategory }) => {
                             src="/assets/imgs/theme/icons/category-1.svg"
                             alt="nest"
                         />
-                        Milks & Dairies
+                        Cà phê
                     </a>
                     <span className="count">30</span>
                 </li>
@@ -38,7 +38,7 @@ const CategoryProduct = ({ updateProductCategory }) => {
                             src="/assets/imgs/theme/icons/category-2.svg"
                             alt="nest"
                         />
-                        Clothing
+                        Gạo
                     </a>
                     <span className="count">35</span>
                 </li>
