@@ -83,7 +83,7 @@ const ProductDetails = ({
                       <div className="clearfix product-price-cover">
                         <div className="product-price primary-color float-left d-flex flex-column-reverse align-items-start">
                           <span className="current-price text-brand">
-                            {product.price} vnđ
+                            {product.price} đ
                           </span>
                           <span>
                             <span className="save-price font-md color3">
@@ -91,7 +91,7 @@ const ProductDetails = ({
                             </span>
                             <span className="old-price font-md mx-0">
                               {product.oldPrice
-                                ? `${product.oldPrice} vnđ`
+                                ? `${product.oldPrice} đ`
                                 : null}
                             </span>
                           </span>

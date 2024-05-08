@@ -118,9 +118,9 @@ const SingleProduct = ({
 
           <div className="product-card-bottom d-flex flex-row align-items-lg-center align-items-md-end">
             <div className="product-price d-flex flex-column flex-column-reverse">
-              <span>{product.price} vnđ</span>
+              <span>{product.price} đ</span>
               <span className="old-price">
-                {product.oldPrice && `${product.oldPrice} vnđ`}
+                {product.oldPrice && `${product.oldPrice} đ`}
               </span>
             </div>
             <div className="add-cart">

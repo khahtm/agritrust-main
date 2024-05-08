@@ -2,147 +2,187 @@ import { connect } from "react-redux";
 import Layout from "../components/layout/Layout";
 
 import Link from "next/link";
-import { clearCart, closeCart, decreaseQuantity, deleteFromCart, increaseQuantity, openCart } from "../redux/action/cart";
+import {
+  clearCart,
+  closeCart,
+  decreaseQuantity,
+  deleteFromCart,
+  increaseQuantity,
+  openCart,
+} from "../redux/action/cart";
 
-const Cart = ({ openCart, cartItems, activeCart, closeCart, increaseQuantity, decreaseQuantity, deleteFromCart, clearCart }) => {
-    const price = () => {
-        let price = 0;
-        cartItems.forEach((item) => (price += item.price * item.quantity));
+const Cart = ({
+  openCart,
+  cartItems,
+  activeCart,
+  closeCart,
+  increaseQuantity,
+  decreaseQuantity,
+  deleteFromCart,
+  clearCart,
+}) => {
+  const price = () => {
+    let price = 0;
+    cartItems.forEach((item) => (price += item.price * item.quantity));
 
-        return price;
-    };
+    return price;
+  };
 
-    return (
-        <>
-            <Layout parent="Home" sub="Shop" subChild="Cart">
-                <section className="mt-50 mb-50">
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-lg-8 mb-40">
-                                <h1 className="heading-2 mb-10">Your Cart</h1>
-                                <div className="d-flex justify-content-between">
-                                    <h6 className="text-body">
-                                        Carefully check the information before checkout
-                                    </h6>
-                                    <h6 className="text-body">
-                                        <a href="#" className="text-muted">
-                                            <i className="fi-rs-trash mr-5"></i>
-                                            Clear Cart
-                                        </a>
-                                    </h6>
-                                </div>
+  return (
+    <>
+      <Layout parent="Home" sub="Shop" subChild="Cart">
+        <section className="mt-50 mb-50">
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-8 mb-40">
+                <h1 className="heading-2 mb-10">Your Cart</h1>
+                <div className="d-flex justify-content-between">
+                  <h6 className="text-body">
+                    Carefully check the information before checkout
+                  </h6>
+                  <h6 className="text-body">
+                    <a href="#" className="text-muted">
+                      <i className="fi-rs-trash mr-5"></i>
+                      Clear Cart
+                    </a>
+                  </h6>
+                </div>
+              </div>
+            </div>
+            <div className="row">
+              <div className="col-lg-8">
+                <div className="table-responsive shopping-summery">
+                  {cartItems.length <= 0 && "Chưa thêm sản phẩm"}
+                  <table
+                    className={
+                      cartItems.length > 0 ? "table table-wishlist" : "d-none"
+                    }
+                  >
+                    <thead>
+                      <tr className="main-heading">
+                        <th
+                          className="custome-checkbox start pl-30"
+                          colSpan="2"
+                        >
+                          Sản phẩm
+                        </th>
+                        <th scope="col">Giá cả</th>
+                        <th scope="col">Số lượng</th>
+                        <th scope="col">Tổng cộng</th>
+                        <th scope="col" className="end">
+                          Xóa
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {cartItems.map((item, i) => (
+                        <tr key={i}>
+                          <td className="image product-thumbnail">
+                            <img src={item.images[0].img} />
+                          </td>
+
+                          <td className="product-des product-name">
+                            <h6 className="product-name">
+                              <Link href="/products">{item.title}</Link>
+                            </h6>
+                            <div className="product-rate-cover">
+                              <div className="product-rate d-inline-block">
+                                <div
+                                  className="product-rating"
+                                  style={{
+                                    width: "90%",
+                                  }}
+                                ></div>
+                              </div>
+                              <span className="font-small ml-5 text-muted">
+                                {" "}
+                                (4.0)
+                              </span>
                             </div>
-                        </div>
-                        <div className="row">
-                            <div className="col-lg-8">
-                                <div className="table-responsive shopping-summery">
-                                    {cartItems.length <= 0 && "Chưa thêm sản phẩm"}
-                                    <table className={cartItems.length > 0 ? "table table-wishlist" : "d-none"}>
-                                        <thead>
-                                            <tr className="main-heading">
-                                                <th className="custome-checkbox start pl-30" colSpan="2">
-                                                    Sản phẩm
-                                                </th>
-                                                <th scope="col">Giá cả</th>
-                                                <th scope="col">Số lượng</th>
-                                                <th scope="col">Tổng cộng</th>
-                                                <th scope="col" className="end">
-                                                    Xóa
-                                                </th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            {cartItems.map((item, i) => (
-                                                <tr key={i}>
-                                                    <td className="image product-thumbnail">
-                                                        <img src={item.images[0].img} />
-                                                    </td>
-
-                                                    <td className="product-des product-name">
-                                                        <h6 className="product-name">
-                                                            <Link href="/products">{item.title}</Link>
-                                                        </h6>
-                                                        <div className="product-rate-cover">
-                                                            <div className="product-rate d-inline-block">
-                                                                <div
-                                                                    className="product-rating"
-                                                                    style={{
-                                                                        width: "90%"
-                                                                    }}
-                                                                ></div>
-                                                            </div>
-                                                            <span className="font-small ml-5 text-muted"> (4.0)</span>
-                                                        </div>
-                                                    </td>
-                                                    <td className="price" data-title="Price">
-                                                        <h4 className="text-brand">{item.price} vnđ</h4>
-                                                    </td>
-                                                    <td className="text-center detail-info" data-title="Stock">
-                                                        <div className="detail-extralink mr-15">
-                                                            <div className="detail-qty border radius ">
-                                                                <a onClick={(e) => decreaseQuantity(item.id)} className="qty-down">
-                                                                    <i className="fi-rs-angle-small-down"></i>
-                                                                </a>
-                                                                <span className="qty-val">{item.quantity}</span>
-                                                                <a onClick={(e) => increaseQuantity(item.id)} className="qty-up">
-                                                                    <i className="fi-rs-angle-small-up"></i>
-                                                                </a>
-                                                            </div>
-                                                        </div>
-                                                    </td>
-                                                    <td className="text-right" data-title="Cart">
-                                                        <h4 className="text-body">{item.quantity * item.price} vnđ</h4>
-                                                    </td>
-                                                    <td className="action" data-title="Remove">
-                                                        <a onClick={(e) => deleteFromCart(item.id)} className="text-muted">
-                                                            <i className="fi-rs-trash"></i>
-                                                        </a>
-                                                    </td>
-                                                </tr>
-                                            ))}
-                                            <tr>
-                                                <td colSpan="6" className="text-end">
-                                                    {cartItems.length > 0 && (
-                                                        <a onClick={clearCart} className="text-muted">
-                                                            <i className="fi-rs-cross-small"></i>
-                                                            Xóa giỏ hàng
-                                                        </a>
-                                                    )}
-                                                </td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                                <div className="cart-action text-end">
-                                    <a className="btn ">
-                                        <i className="fi-rs-shopping-bag mr-10"></i>
-                                        Tiếp tục mua sắm
-                                    </a>
-                                </div>
-                                <div className="divider center_icon mt-50 mb-50">
-                                    <i className="fi-rs-fingerprint"></i>
-                                </div>
-                                <div className="row mb-50">
-                                    <div className="col-lg-6 col-md-12">
-                                        <div className="heading_s1 mb-3">
-                                            <h4>Thông tin giao hàng</h4>
-                                        </div>
-                                        <p className="mt-15 mb-30">
-                                            Phí giao hàng:
-                                            <span className="font-xl text-brand fw-900">FREE</span>
-                                        </p>
-                                        <form className="field_form shipping_calculator">
-                                            <div className="form-row">
-                                                <div className="form-group col-lg-12">
-                                                    <div className="custom_select">
-                                                        <select className="form-control select-active">
-                                                            <option value="">Lựa chọn khu vực...</option>
-                                                            <option value="AX">TP Hồ Chí Minh</option>
-                                                            <option value="AF">Đà Nẵng</option>
-                                                            <option value="AL">Cần Thơ</option>
-                                                            <option value="DZ">Hà Nội</option>
-                                                            <option value="AD">Hải Phòng</option>
-                                                            {/* <option value="AO">Angola</option>
+                          </td>
+                          <td className="price" data-title="Price">
+                            <h4 className="text-brand">{item.price} đ</h4>
+                          </td>
+                          <td
+                            className="text-center detail-info"
+                            data-title="Stock"
+                          >
+                            <div className="detail-extralink mr-15">
+                              <div className="detail-qty border radius ">
+                                <a
+                                  onClick={(e) => decreaseQuantity(item.id)}
+                                  className="qty-down"
+                                >
+                                  <i className="fi-rs-angle-small-down"></i>
+                                </a>
+                                <span className="qty-val">{item.quantity}</span>
+                                <a
+                                  onClick={(e) => increaseQuantity(item.id)}
+                                  className="qty-up"
+                                >
+                                  <i className="fi-rs-angle-small-up"></i>
+                                </a>
+                              </div>
+                            </div>
+                          </td>
+                          <td className="text-right" data-title="Cart">
+                            <h4 className="text-body">
+                              {item.quantity * item.price} đ
+                            </h4>
+                          </td>
+                          <td className="action" data-title="Remove">
+                            <a
+                              onClick={(e) => deleteFromCart(item.id)}
+                              className="text-muted"
+                            >
+                              <i className="fi-rs-trash"></i>
+                            </a>
+                          </td>
+                        </tr>
+                      ))}
+                      <tr>
+                        <td colSpan="6" className="text-end">
+                          {cartItems.length > 0 && (
+                            <a onClick={clearCart} className="text-muted">
+                              <i className="fi-rs-cross-small"></i>
+                              Xóa giỏ hàng
+                            </a>
+                          )}
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <div className="cart-action text-end">
+                  <a className="btn ">
+                    <i className="fi-rs-shopping-bag mr-10"></i>
+                    Tiếp tục mua sắm
+                  </a>
+                </div>
+                <div className="divider center_icon mt-50 mb-50">
+                  <i className="fi-rs-fingerprint"></i>
+                </div>
+                <div className="row mb-50">
+                  <div className="col-lg-6 col-md-12">
+                    <div className="heading_s1 mb-3">
+                      <h4>Thông tin giao hàng</h4>
+                    </div>
+                    <p className="mt-15 mb-30">
+                      Phí giao hàng:
+                      <span className="font-xl text-brand fw-900">FREE</span>
+                    </p>
+                    <form className="field_form shipping_calculator">
+                      <div className="form-row">
+                        <div className="form-group col-lg-12">
+                          <div className="custom_select">
+                            <select className="form-control select-active">
+                              <option value="">Lựa chọn khu vực...</option>
+                              <option value="AX">TP Hồ Chí Minh</option>
+                              <option value="AF">Đà Nẵng</option>
+                              <option value="AL">Cần Thơ</option>
+                              <option value="DZ">Hà Nội</option>
+                              <option value="AD">Hải Phòng</option>
+                              {/* <option value="AO">Angola</option>
                                                             <option value="AI">Anguilla</option>
                                                             <option value="AQ">Antarctica</option>
                                                             <option value="AG">Antigua and Barbuda</option>
@@ -381,112 +421,132 @@ const Cart = ({ openCart, cartItems, activeCart, closeCart, increaseQuantity, de
                                                             <option value="YE">Yemen</option>
                                                             <option value="ZM">Zambia</option>
                                                             <option value="ZW">Zimbabwe</option> */}
-                                                        </select>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div className="form-row row">
-                                                <div className="form-group col-lg-6">
-                                                    <input required="required" placeholder="Phường" name="name" type="text" />
-                                                </div>
-                                                <div className="form-group col-lg-6">
-                                                    <input required="required" placeholder="Địa chỉ" name="name" type="text" />
-                                                </div>
-                                            </div>
-                                            <div className="form-row">
-                                                <div className="form-group col-lg-12">
-                                                    <button className="btn  btn-sm">
-                                                        <i className="fi-rs-shuffle mr-10"></i>
-                                                        Update
-                                                    </button>
-                                                </div>
-                                            </div>
-                                        </form>
-                                        <div className="mb-30 mt-50">
-                                            <div className="heading_s1 mb-3">
-                                                <h4>Thêm mã giảm giá</h4>
-                                            </div>
-                                            <div className="total-amount">
-                                                <div className="left">
-                                                    <div className="coupon">
-                                                        <form action="#" target="_blank">
-                                                            <div className="form-row row justify-content-center">
-                                                                <div className="form-group col-lg-6">
-                                                                    <input className="font-medium" name="Coupon" placeholder="Nhập mã giảm giá" />
-                                                                </div>
-                                                                <div className="form-group col-lg-6">
-                                                                    <button className="btn  btn-sm">
-                                                                        <i className="fi-rs-label mr-10"></i>
-                                                                        Apply
-                                                                    </button>
-                                                                </div>
-                                                            </div>
-                                                        </form>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="col-lg-6 col-md-12">
-                                        <div className="border p-md-4 p-30 border-radius cart-totals">
-                                            <div className="heading_s1 mb-3">
-                                                <h4>Cart Totals</h4>
-                                            </div>
-                                            <div className="table-responsive">
-                                                <table className="table">
-                                                    <tbody>
-                                                        <tr>
-                                                            <td className="cart_total_label">Tổng cộng tiền hàng</td>
-                                                            <td className="cart_total_amount">
-                                                                <span className="font-lg fw-900 text-brand">{price()} vnđ</span>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td className="cart_total_label">Shipping</td>
-                                                            <td className="cart_total_amount">
-                                                                <i className="ti-gift mr-5"></i>
-                                                                Free phí vận chuyển
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td className="cart_total_label">Tổng cộng</td>
-                                                            <td className="cart_total_amount">
-                                                                <strong>
-                                                                    <span className="font-xl fw-900 text-brand">{price()} vnđ</span>
-                                                                </strong>
-                                                            </td>
-                                                        </tr>
-                                                    </tbody>
-                                                </table>
-                                            </div>
-                                            <a href="#" className="btn ">
-                                                <i className="fi-rs-box-alt mr-10"></i>
-                                                Thanh toán
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                            </select>
+                          </div>
                         </div>
+                      </div>
+                      <div className="form-row row">
+                        <div className="form-group col-lg-6">
+                          <input
+                            required="required"
+                            placeholder="Phường"
+                            name="name"
+                            type="text"
+                          />
+                        </div>
+                        <div className="form-group col-lg-6">
+                          <input
+                            required="required"
+                            placeholder="Địa chỉ"
+                            name="name"
+                            type="text"
+                          />
+                        </div>
+                      </div>
+                      <div className="form-row">
+                        <div className="form-group col-lg-12">
+                          <button className="btn  btn-sm">
+                            <i className="fi-rs-shuffle mr-10"></i>
+                            Update
+                          </button>
+                        </div>
+                      </div>
+                    </form>
+                    <div className="mb-30 mt-50">
+                      <div className="heading_s1 mb-3">
+                        <h4>Thêm mã giảm giá</h4>
+                      </div>
+                      <div className="total-amount">
+                        <div className="left">
+                          <div className="coupon">
+                            <form action="#" target="_blank">
+                              <div className="form-row row justify-content-center">
+                                <div className="form-group col-lg-6">
+                                  <input
+                                    className="font-medium"
+                                    name="Coupon"
+                                    placeholder="Nhập mã giảm giá"
+                                  />
+                                </div>
+                                <div className="form-group col-lg-6">
+                                  <button className="btn  btn-sm">
+                                    <i className="fi-rs-label mr-10"></i>
+                                    Apply
+                                  </button>
+                                </div>
+                              </div>
+                            </form>
+                          </div>
+                        </div>
+                      </div>
                     </div>
-                </section>
-            </Layout>
-        </>
-    );
+                  </div>
+                  <div className="col-lg-6 col-md-12">
+                    <div className="border p-md-4 p-30 border-radius cart-totals">
+                      <div className="heading_s1 mb-3">
+                        <h4>Cart Totals</h4>
+                      </div>
+                      <div className="table-responsive">
+                        <table className="table">
+                          <tbody>
+                            <tr>
+                              <td className="cart_total_label">
+                                Tổng cộng tiền hàng
+                              </td>
+                              <td className="cart_total_amount">
+                                <span className="font-lg fw-900 text-brand">
+                                  {price()} đ
+                                </span>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td className="cart_total_label">Shipping</td>
+                              <td className="cart_total_amount">
+                                <i className="ti-gift mr-5"></i>
+                                Free phí vận chuyển
+                              </td>
+                            </tr>
+                            <tr>
+                              <td className="cart_total_label">Tổng cộng</td>
+                              <td className="cart_total_amount">
+                                <strong>
+                                  <span className="font-xl fw-900 text-brand">
+                                    {price()} đ
+                                  </span>
+                                </strong>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <a href="#" className="btn ">
+                        <i className="fi-rs-box-alt mr-10"></i>
+                        Thanh toán
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </Layout>
+    </>
+  );
 };
 
 const mapStateToProps = (state) => ({
-    cartItems: state.cart,
-    activeCart: state.counter
+  cartItems: state.cart,
+  activeCart: state.counter,
 });
 
 const mapDispatchToProps = {
-    closeCart,
-    increaseQuantity,
-    decreaseQuantity,
-    deleteFromCart,
-    openCart,
-    clearCart
+  closeCart,
+  increaseQuantity,
+  decreaseQuantity,
+  deleteFromCart,
+  openCart,
+  clearCart,
 };
 
 export default connect(mapStateToProps, mapDispatchToProps)(Cart);
